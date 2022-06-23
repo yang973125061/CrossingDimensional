@@ -1,259 +1,282 @@
 {
-    "__type__": "cc.JsonAsset",
+	"__type__": "cc.JsonAsset",
 	"_name": "ctx",
 	"json": {
-            "version": 9,
+		"version": 9,
 		"evts": [
-{
-"affCond":"[\"未出生\"]",
-"title":"super赛亚人",
-"text":"=NAME=出生就遗传了他父亲的一头金发，父亲告诉他:我们注定是不凡的血脉",
-"aff":"[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\", \"plusAff\":\"super赛亚人\", \"delAff\":\"未出生\", \"affValueChange\":[ { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":200, \"type\":\"=\" }, { \"key\":\"财富\", \"type\":\"=\", \"value\":1 } ] } ]",
-"sexCond":-1,
-"ageCondMin":0,
-"ageCondMax":0,
-"passTime":1,
-"id":2
-}
-{
-"affCond":"[\"未出生\"]",
-"title":"葫芦娃",
-"text":" =NAME=用力把葫芦撑破，来到了这个世界。=NAME= 一出生，就会说话，会走路。并___
-",
-"aff":"[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"力大无穷\", \"plusAff\":\"强壮\", \"delAff\":\"未出生\", \"plusBG\":\"葫芦娃\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"=\", \"value\":5 }, { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":100, \"type\":\"=\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"机智冷静\", \"plusAff\":\"高情商\", \"delAff\":\"未出生\", \"plusBG\":\"葫芦娃\", \"affValueChange\":[ { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"财富\", \"type\":\"=\", \"value\":5 }, { \"key\":\"健康\", \"value\":100, \"type\":\"=\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"有千里眼顺风耳\", \"plusAff\":\"洞察\", \"delAff\":\"未出生\", \"plusBG\":\"葫芦娃\", \"affValueChange\":[ { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":100, \"type\":\"=\" }, { \"key\":\"财富\", \"type\":\"=\", \"value\":5 } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"会隐身\", \"plusAff\":\"隐身\", \"delAff\":\"未出生\", \"plusBG\":\"葫芦娃\", \"affValueChange\":[ { \"key\":\"健康\", \"value\":100, \"type\":\"=\" }, { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"财富\", \"type\":\"=\", \"value\":5 } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"会喷火\", \"plusAff\":\"会喷火\", \"delAff\":\"未出生\", \"plusBG\":\"葫芦娃\", \"affValueChange\":[ { \"key\":\"健康\", \"value\":100, \"type\":\"=\" }, { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"财富\", \"type\":\"=\", \"value\":5 } ] } ]",
-"sexCond":-1,
-"ageCondMin":0,
-"ageCondMax":0,
-"passTime":4,
-"id":3
-}
-{
-"affCond":"[\"未出生\"]",
-"title":"富二代",
-"text":"=NAME=出生在一个土豪家庭，成为了一名富二代",
-"aff":"[ { \"title\":\"富二代\", \"text\":\"=NAME=出生在一个土豪家庭\", \"btn\":\"下一事件\", \"plusAff\":\"富二代\", \"delAff\":\"未出生\", \"target\":\"1395\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"=\", \"value\":5 }, { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":100, \"type\":\"=\" } ] } ]",
-"sexCond":-1,
-"ageCondMin":0,
-"ageCondMax":0,
-"passTime":1,
-"id":1
-}
-{
-"affCond":"[\"未出生\"]",
-"title":"出生",
-"text":"\"开眼了开眼了\"，=NAME=一出生就在熟睡，刚睁眼耳边响起父母高兴的叫声",
-"aff":"[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\", \"plusAff\":\"天眼\", \"delAff\":\"未出生\", \"affValueChange\":[ { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":100, \"type\":\"=\" } ] } ]",
-"sexCond":1,
-"ageCondMin":0,
-"ageCondMax":0,
-"passTime":1,
-"id":4
-}
-{
-"affCond":"[\"勇敢\"]",
-"title":"勇敢",
-"text":"=NAME=很胆大，经常___
-",
-"aff":"[ { \"title\":\"=INHERIT=\", \"text\":\"=NAME=很胆大，经常去更衣室偷窥别人。有一次他被人发现了，=NAME=竟然和那个人一窥生情，热恋了。\", \"btn\":\"进异性更衣室偷窥\", \"affValueChange\":[ { \"key\":\"恋爱中\", \"type\":\"+\", \"value\":1 } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"路见不平，出手相助。\", \"plusAff\":\"高情商\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"去溪河游泳。\", \"plusAff\":\"死亡\" }, { \"title\":\"=INHERIT=\", \"text\":\"不作死就不会死。\", \"btn\":\"作死\", \"plusAff\":\"死亡\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"做一些违反校规的事情\", \"plusBG\":\"差生\" }, { \"title\":\"教育就是和你对着干\", \"text\":\"=NAME=很勇敢，经常在课堂上提出自己的想法。但是这样只会使=NAME=变成老师的眼中钉，爱顶嘴的差生。\", \"btn\":\"在课堂上勇于提出自己的想法\", \"affValueChange\":[ { \"key\":\"学习成绩\", \"type\":\"-\", \"value\":1 } ] } ]",
-"sexCond":-1,
-"ageCondMin":4,
-"ageCondMax":19,
-"passTime":1,
-"id":27,
-"affValueCompare":""
-}
-{
-"affCond":"[\"未出生\"]",
-"title":"异世界",
-"text":"\"=NAME= 从一个冷冻仓醒来，发现过了100年，一场病毒导致世界上的男人都灭绝了，仅剩无数的女人。人类的繁衍迫在眉睫,",
-"aff":"[ { \"title\":\"异世界\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\", \"delAff\":\"未出生\", \"plusBG\":\"种马\",\"plusAff\":\"穿越\",  \"affValueChange\":[{ \"key\":\"健康\", \"value\":100, \"type\":\"=\" } ] } ]",
-"sexCond":-1,
-"ageCondMin":0,
-"ageCondMax":0,
-"passTime":8,
-"id":5
-}
-{
-"affCond":"[\"未出生\"]",
-"title":"出生",
-"text":"叮～，最强作死系统已绑定。=NAME=耳边响起一道系统的声音。看着陌生的天花板，我这是穿越了？不就之前作死在手里放了个礼花弹吗",
-"aff":"[ { \"title\":\"穿越\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\", \"plusAff\":\"最强作死系统\",\"plusAff\":\"穿越\", \"delAff\":\"未出生\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"=\", \"value\":1 }, { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":80, \"type\":\"=\" } ] } ]",
-"sexCond":-1,
-"ageCondMin":0,
-"ageCondMax":0,
-"passTime":1,
-"id":7
-}
-{
-"title":"天赋",
-"text":"=NAME=一出生就___
-",
-"aff":"[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"会跟小动物说话\", \"target\":\"706\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=一出生就身体折起来，能自己吃到自己下面。自从掌握了新姿势，蛋白质不流失、不蒸发、零浪费！\", \"btn\":\"身体折起来，能自己吃到自己下面\", \"plusAff\":\"身体协调\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"能过目不忘\", \"plusAff\":\"记忆\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"学会说粗口\", \"plusAff\":\"高情商\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"酗酒\", \"plusAff\":\"多病\", \"affValueChange\":[ { \"key\":\"健康\", \"value\":10, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"吸烟\", \"plusAff\":\"烟瘾\", \"affValueChange\":[ { \"key\":\"健康\", \"value\":10, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"会飙歌\", \"plusAff\":\"音乐\", \"affValueChange\":[ { \"key\":\"音乐能力\", \"value\":1, \"type\":\"+\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"会素描\", \"plusAff\":\"画画\", \"affValueChange\":[ { \"key\":\"画图能力\", \"value\":2, \"type\":\"+\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"目的性很强\", \"plusAff\":\"逻辑\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢问5W1H\", \"plusAff\":\"好奇\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"会吹口哨\", \"plusAff\":\"吹口哨高手\", \"target\":\"1589\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"是个熊孩子\", \"plusAff\":\"熊孩子\" } ]",
-"sexCond":-1,
-"ageCondMin":1,
-"ageCondMax":4,
-"passTime":1,
-"id":8
-}
-{
-"title":"幼儿日常",
-"text":"=NAME=___",
-"aff":"[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢看电视\", \"plusAff\":\"近视眼\", \"target\":\"10\", \"affValueChange\":[ { \"key\":\"健康\", \"value\":5, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"对玩具非常着迷\", \"target\":\"12\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢玩耍\", \"target\":\"11\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢玩平板电脑\", \"target\":\"1628\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"经常安静地呆着\", \"plusAff\":\"内向\", \"target\":\"155\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢撒币\", \"plusAff\":\"败家\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"-\", \"value\":2 } ], \"conds\":{ \"affCond\":[ \"土豪\" ] } } ]",
-"sexCond":-1,
-"ageCondMin":1,
-"ageCondMax":4,
-"passTime":0,
-"id":9
-}
-{
-"affCond":"[\"未出生\"]",
-"title":"出生",
-"text":"=NAME=出生了。",
-"aff":"[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\", \"delAff\":\"未出生\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"=\", \"value\":5 }, { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":100, \"type\":\"=\" } ] } ]",
-"sexCond":-1,
-"ageCondMin":0,
-"ageCondMax":0,
-"passTime":1,
-"id":6
-}
-{
-"title":"玩耍迷",
-"text":"=NAME==AGE=岁的时候非常好动，经常___
-",
-"aff":"[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"用口水在其他人背部涂鸦\", \"plusAff\":\"画画\", \"delAff\":\"玩耍迷\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"乱打电话\", \"plusAff\":\"勇敢\", \"delAff\":\"玩耍迷\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=小时候就喜欢爬树抓鸟。俗话说常在河边走，哪有不湿脚。=NAME=在一次爬树偷鸟蛋中，被一只巨型野生狮鹫抓住，=NAME=被撕成了碎片。\", \"btn\":\"爬树抓鸟\", \"plusAff\":\"死亡\", \"delAff\":\"玩耍迷\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"跟脑子里的另外一个人捉迷藏\", \"plusAff\":\"脑洞\", \"delAff\":\"玩耍迷\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"跟自己赛跑\", \"plusAff\":\"好胜\", \"delAff\":\"玩耍迷\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"闯入别人家\", \"plusAff\":\"勇敢\", \"delAff\":\"玩耍迷\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"在阳台用积木丢过往的行人\", \"plusAff\":\"洞察\", \"delAff\":\"玩耍迷\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"开演唱会\", \"plusAff\":\"音乐\", \"affValueChange\":[ { \"key\":\"音乐能力\", \"value\":1, \"type\":\"+\" } ], \"delAff\":\"玩耍迷\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"玩昆特牌\", \"plusAff\":\"逻辑\", \"delAff\":\"玩耍迷\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"骑共享单车\", \"delAff\":\"玩耍迷\", \"plusBG\":\"共享单车\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME==AGE=岁的时候非常好动，经常喷火玩。俗话说得好，玩火者必自焚。=NAME=有一次在家里喷火煲蜡时发生意外，高温火焰引燃了窗帘，造成火灾，=NAME=在吸入大量浓烟后中毒死亡。\", \"btn\":\"玩火\", \"plusAff\":\"死亡\", \"delAff\":\"玩耍迷\", \"conds\":{ \"affCond\":[ \"会喷火\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME==AGE=岁的时候非常好动，他用自己的魔法制造雪人玩。\", \"btn\":\"造雪人\", \"delAff\":\"玩耍迷\", \"conds\":{ \"affCond\":[ \"戴手套\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME==AGE=岁的时候非常好动，他用自己的能力喷火玩，到处放火。\", \"btn\":\"玩火\", \"delAff\":\"玩耍迷\", \"conds\":{ \"affCond\":[ \"会喷火\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME==AGE=岁的时候，凭借着他的个人能力，他成为了一名小偷。\", \"btn\":\"做小偷\", \"plusAff\":\"小偷\", \"delAff\":\"玩耍迷\", \"conds\":{ \"affCond\":[ \"隐身\" ] } } ]",
-"sexCond":-1,
-"ageCondMin":200,
-"ageCondMax":200,
-"passTime":1,
-"id":11
-}
-{
-"title":"学走路",
-"text":"=NAME=___的时候，突然学会了走路。
-",
-"aff":"[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"闯祸了被人追着打\", \"plusAff\":\"强壮\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"吃脚趾\", \"plusAff\":\"脑洞\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"和狗抢东西吃\", \"plusAff\":\"好胜\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"模仿MJ\", \"plusAff\":\"音乐\", \"affValueChange\":[ { \"key\":\"音乐能力\", \"value\":1, \"type\":\"+\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=看了看教走路的教程，就学会了走路。\", \"btn\":\"看手把手教程\" }, { \"title\":\"天才\", \"text\":\"=NAME=一生下来就会走路，根本不用学\", \"btn\":\"走路还用学？\", \"plusAff\":\"身体协调\" } ]",
-"sexCond":-1,
-"ageCondMin":1,
-"ageCondMax":4,
-"passTime":1,
-"id":14
-}
-{
-"title":"美德",
-"text":"=NAME=坐公交车，发现有一个老人抱着小孩没有座位坐。=NAME=___",
-"aff":"[ { \"title\":\"抢小孩\", \"text\":\"=NAME=想帮老人忙，上前去把老人怀里的小孩揽过来……老人一愣，立马大叫抢小孩啦快报警！=NAME=跳进黄河也洗不清，被判2年监禁。\", \"btn\":\"帮老人抱住小孩\", \"plusCBG\":\"监狱\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":2, \"type\":\"=\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=尊老爱幼，是中华人民的美德。\", \"btn\":\"让座\" }, { \"title\":\"缺德\", \"text\":\"=INHERIT=\", \"btn\":\"并不理睬\" } ]",
-"sexCond":-1,
-"ageCondMin":8,
-"ageCondMax":40,
-"passTime":1,
-"id":159
-}
-{
-"affCond":"[\"小偷\"]",
-"title":"盗窃上瘾",
-"text":"尝过上次的甜头后，=NAME=偷窃上瘾了，=NAME=决定下个目标是___ ",
-"aff":"[ { \"title\":\"被抓现行\", \"text\":\"在地铁中，偷窃上瘾的=NAME=把魔抓伸向了一位女士口袋，从口袋里偷出了一个手机，说时迟那时快，手机突然响了……最后=NAME=被管理员抓了，扭送去了派出所，等待=NAME=的，是漫长的牢狱之苦\", \"btn\":\"拥挤的地铁中偷手机\", \"delAff\":\"小偷\", \"plusCBG\":\"监狱\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":2, \"type\":\"=\" } ] }, { \"title\":\"被抓现行\", \"text\":\"=NAME=把商场内的告示“商场内设有摄像头，请勿偷窃商品”中的设看成了没。于是肆无忌惮地偷东西，立马就被抓获了……\", \"btn\":\"去商场偷东西\", \"delAff\":\"小偷\", \"plusCBG\":\"监狱\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":2, \"type\":\"=\" } ] }, { \"title\":\"付出代价\", \"text\":\"=NAME=喜欢玩偷菜，于是也想在真实世界里过把瘾。然而真实的世界是冷酷的，当=NAME=在市场偷菜被菜贩抓到后，=NAME=被菜贩拖进了小黑屋肢解了，剁成了肉块，稍作处理后，当驴肉出售。\", \"btn\":\"去菜市场偷菜\", \"plusAff\":\"死亡\" }, { \"title\":\"挤牛奶\", \"text\":\"=NAME=去牛奶场偷牛，牛太重搬不动，于是=NAME=挤了点牛奶装好就灰溜溜地走了。\", \"btn\":\"去牛奶场偷牛\" }, { \"title\":\"笨贼\", \"text\":\"=NAME=选择在夜深人静的时候，溜到郊外偷电线。当=NAME=剪电线的时候被通电了，黑夜中似乎有一颗明星闪耀了1分钟，这是=NAME=生命绽放的最后光芒。\", \"btn\":\"偷电线\", \"plusAff\":\"死亡\" }, { \"title\":\"白手起家\", \"text\":\"=NAME=喜欢偷车，专门找一些乱停乱放的汽车下手，干了不久，就发家致富，金盘洗手了。\", \"btn\":\"偷车\", \"plusAff\":\"小偷：最后一波\", \"delAff\":\"小偷\" }, { \"title\":\"内衣流通\", \"text\":\"=NAME=经常去一些城中村，老住宅区，偷内衣，男女的内衣都偷。他把偷得的内衣放在家，自己玩过之后洗干净，又摆摊卖出去。\", \"btn\":\"内衣\" }, { \"title\":\"满足感\", \"text\":\"=NAME=偷窃上瘾，他进小学学校偷看学生的书包。=NAME=从窥探书包里的东西来获得独特的满足感，看完就放回去，啥都不拿。\", \"btn\":\"小学生\" } ]",
-"sexCond":-1,
-"ageCondMin":8,
-"ageCondMax":65535,
-"passTime":1,
-"id":160
-}
-{
-"background":"[\"失忆\"]",
-"title":"恢复记忆",
-"text":"=NAME=记起来了，他是一个内向的人。
-",
-"aff":"[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\", \"plusAff\":\"内向\", \"delAff\":\"高情商\", \"delBG\":\"失忆\" } ]",
-"sexCond":-1,
-"ageCondMin":1,
-"ageCondMax":65535,
-"passTime":0,
-"id":161
-}
-{
-"background":"[\"失忆\"]",
-"title":"恢复记忆",
-"text":"=NAME=记忆逐渐恢复，=NAME=发现学校的作业题他都会做了，=NAME=以前很可能是学霸。",
-"aff":"[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\", \"affValueChange\":[ { \"key\":\"学习成绩\", \"type\":\"=\", \"value\":3 } ] } ]",
-"sexCond":-1,
-"ageCondMin":1,
-"ageCondMax":65535,
-"passTime":0,
-"id":162,
-"affValueCompare":""
-}
-{
-"background":"[\"黑暗厨师\"]",
-"affCond":"[\"赢得厨师比赛\"]",
-"title":"快递",
-"text":"=NAME=的快递到了，快递小哥似乎搬这个东西搬得很吃力，快递员来拍门了。=NAME=___ ",
-"aff":"[ { \"title\":\"获得神秘厨具“永灵刀”\", \"text\":\"快递到了，=NAME=开门去拿，原来是上次比赛赢回来的奖品。一个神秘厨具“永灵刀”。\", \"btn\":\"开门去拿\", \"plusAff\":\"获得永灵刀\", \"delAff\":\"赢得厨师比赛\", \"delBG\":\"反动\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=的快递到了，快递小哥在门外等了半个小时，=NAME=竟然不来拿快递，给了门一个中指走人了。\", \"btn\":\"感觉不对路，假装不在家\", \"delAff\":\"赢得厨师比赛\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=的快递到了，快递小哥在门外等了半个小时，=NAME=竟然不来拿快递，给了门一个中指走人了。\", \"btn\":\"偷偷从窗外溜出去\", \"delAff\":\"赢得厨师比赛\" } ]",
-"sexCond":-1,
-"ageCondMin":20,
-"ageCondMax":65535,
-"passTime":0,
-"id":163
-}
-{
-"title":"科学研究",
-"text":"=NAME=选择毕业后，未来将留在在学校做科研，他研究的学科是___",
-"aff":"[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"生物学\", \"plusBG\":\"生物学\", \"conds\":{ \"affCond\":[ \"数学专业\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"生物学\", \"plusBG\":\"生物学\", \"conds\":{ \"affCond\":[ \"生物学专业\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"生物学\", \"plusBG\":\"生物学\", \"conds\":{ \"affCond\":[ \"化学专业\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"高能物理\", \"plusBG\":\"高能物理学\", \"conds\":{ \"affCond\":[ \"物理学专业\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"高能物理\", \"plusBG\":\"高能物理学\", \"conds\":{ \"affCond\":[ \"数学专业\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"天文\", \"plusBG\":\"天文学\", \"conds\":{ \"affCond\":[ \"天文学专业\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"天文\", \"plusBG\":\"天文学\", \"conds\":{ \"affCond\":[ \"数学专业\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"社会学\", \"plusBG\":\"社会学\", \"conds\":{ \"affCond\":[ \"哲学专业\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"心理学\", \"plusBG\":\"心理学\", \"conds\":{ \"affCond\":[ \"哲学专业\" ] } } ]",
-"sexCond":-1,
-"ageCondMin":2000,
-"ageCondMax":2000,
-"passTime":1,
-"id":164
-}
-{
-"background":"[\"监狱\"]",
-"title":"超无聊",
-"text":"在监狱里，四面墙，一张床，=NAME=超无聊，只好___来打发时间。",
-"aff":"[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"读小说《战争与和平》\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":1, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"读小说《卡洛琳娜》\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":1, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"读小说《穿越到明朝当个官》\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":1, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"发呆\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":1, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=在监狱的图书馆里找到一本《监狱室内设计》，他立马拿起来看。这本书竟然是本叙事的诗歌……=NAME=的心里跑过无数草泥马。\", \"btn\":\"阅读《监狱室内设计》\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":1, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"写点什么\", \"plusAff\":\"写作\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":1, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"读图书《Codex Seraphinianus》\", \"plusAff\":\"脑洞\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":1, \"type\":\"-\" } ] } ]",
-"sexCond":-1,
-"ageCondMin":1,
-"ageCondMax":65535,
-"passTime":1,
-"id":166,
-"affValueCompare":""
-}
-{
-"background":"[\"厨师\",\"黑暗厨师\"]",
-"affCond":"[\"口臭\"]",
-"title":"特殊味道",
-"text":"=NAME=煮的鱼香茄子有非常独特的南鱼，非常香。而=NAME=煮这道菜的时候不准让任何人旁观，说这个是祖传的秘籍，不能外露。
-",
-"aff":"[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\" } ]",
-"sexCond":-1,
-"ageCondMin":1,
-"ageCondMax":65535,
-"passTime":1,
-"id":167
-}
-{
-"background":"[\"外贸\"]",
-"title":"沟通",
-"text":"在和客户沟通中语言不通，=NAME=会___",
-"aff":"[ { \"title\":\"=INHERIT=\", \"text\":\"=NAME=在公司的表现不佳，和客户画来画去的，根本不能沟通。\", \"btn\":\"玩我画你猜\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=边查字典边和客户说外语，虽然这样子看起来很丑，但是很有效。即使一些很难对付的客户，生意都能谈下来。\", \"btn\":\"立马查字典\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=边上网找翻译边和客户说外语，虽然这样子看起来很丑，但是很有效。即使一些很难对付的客户，生意都能谈下来。\", \"btn\":\"上网找在线翻译\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=用生动的肢体语言来弥补语言障碍，=NAME=每天的工作就像在做运动。\", \"btn\":\"肢体语言\", \"plusAff\":\"强壮\", \"delAff\":\"多病\" } ]",
-"sexCond":-1,
-"ageCondMin":20,
-"ageCondMax":55,
-"passTime":1,
-"id":165
-}
-{
-"background":"[\"天文学\"]",
-"affCond":"[\"“事件视界望远镜”项目\"]",
-"title":"拦路打劫",
-"text":"“事件视界望远镜”项目运送数据硬盘的卡车在半路被拦路打劫，=NAME=在车上，偷偷从车窗向外看，他看到外面匪徒一共3人，都有枪。=NAME=___",
-"aff":"[ { \"title\":\"=INHERIT=\", \"text\":\"“事件视界望远镜”项目运送数据硬盘的卡车在半路被拦路打劫，=NAME=在车上，偷偷从车窗向外看，他看到外面匪徒一共3人，都有枪。=NAME=很果断，立即跳下车抱住一个匪徒。=NAME=找到机会，一记重拳把那个匪徒打倒在地，不省人事。其他两个匪徒想要开枪，被=NAME=缴械了，=NAME=擒住2个匪徒，把他们的头撞在一起……收拾了这3个匪徒，=NAME=跳上卡车走了。\", \"btn\":\"下车与匪徒搏斗\", \"affValueChange\":[ { \"key\":\"黑洞照片进度\", \"value\":3, \"type\":\"+\" } ], \"conds\":{ \"affCond\":[ \"强壮\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"“事件视界望远镜”项目运送数据硬盘的卡车在半路被拦路打劫，=NAME=在车上，偷偷从车窗向外看，他看到外面匪徒一共3人，都有枪。=NAME=很果断，立即跳下车抱住一个匪徒，两人撕打了起来。匪徒的体力明显比=NAME=好，=NAME=很快被摁在地上，一枪爆头。\", \"btn\":\"下车与匪徒搏斗\", \"plusAff\":\"死亡\", \"conds\":{ \"unAffCond\":[ \"强壮\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"“事件视界望远镜”项目运送数据硬盘的卡车在半路被拦路打劫，=NAME=在车上，偷偷从车窗向外看，他看到外面匪徒一共3人，都有枪。=NAME=很淡定地走下车，走到匪徒面前，面无惧色。匪徒看到=NAME=这架势，纷纷后退几步。=NAME=开始对3个匪徒进行思想教育，并向他们科普“事件视界望远镜”项目。=NAME=那富有感染力的语言，把3个匪徒说服了，他们放下枪，给卡车放行了。\", \"btn\":\"尝试说服匪徒\", \"affValueChange\":[ { \"key\":\"黑洞照片进度\", \"value\":3, \"type\":\"+\" } ], \"conds\":{ \"affCond\":[ \"高情商\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"“事件视界望远镜”项目运送数据硬盘的卡车在半路被拦路打劫，=NAME=在车上，偷偷从车窗向外看，他看到外面匪徒一共3人，都有枪。=NAME=兴奋地走下车，脱下了他的手套，无约束地释放他体内的魔法力量，攻击这3个可怜的匪徒，直至轰成渣后，=NAME=才依依不舍地穿回了手套，回到车上，开车走了。\", \"btn\":\"使用魔法攻击匪徒\", \"affValueChange\":[ { \"key\":\"黑洞照片进度\", \"value\":3, \"type\":\"+\" } ], \"conds\":{ \"affCond\":[ \"戴手套\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"“事件视界望远镜”项目运送数据硬盘的卡车在半路被拦路打劫，=NAME=在车上，偷偷从车窗向外看，他看到外面匪徒一共3人，都有枪。=NAME=跳下车，攻击匪徒！=NAME=向匪徒释放喷火，吐出来的火焰打歪了，烧到了卡车上。装满硬盘的卡车开始熊熊燃烧，匪徒逃跑了……\", \"btn\":\"喷火攻击匪徒！\", \"conds\":{ \"affCond\":[ \"会喷火\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"“事件视界望远镜”项目运送数据硬盘的卡车在半路被拦路打劫，=NAME=在车上，偷偷从车窗向外看，他看到外面匪徒一共3人，都有枪。=NAME=吓得立马跳车，隐身逃跑了。\", \"btn\":\"隐身逃跑\", \"conds\":{ \"affCond\":[ \"隐身\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"“事件视界望远镜”项目运送数据硬盘的卡车在半路被拦路打劫，=NAME=在车上，偷偷从车窗向外看，他看到外面匪徒一共3人，都有枪。=NAME=吓得立马跳车逃跑了。\", \"btn\":\"下车逃跑\" } ]",
-"sexCond":-1,
-"ageCondMin":1,
-"ageCondMax":65535,
-"passTime":0,
-"id":1678
-}
+			{
+				"affCond": "[\"未出生\"]",
+				"title": "super赛亚人",
+				"text": "=NAME=出生就遗传了他父亲的一头金发，父亲告诉他:我们注定是不凡的血脉",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\", \"plusAff\":\"super赛亚人\", \"delAff\":\"未出生\", \"affValueChange\":[ { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":200, \"type\":\"=\" }, { \"key\":\"财富\", \"type\":\"=\", \"value\":1 } ] } ]",
+				"sexCond": -1,
+				"ageCondMin": 0,
+				"ageCondMax": 0,
+				"passTime": 1,
+				"id": 2
+			},
+			{
+				"affCond": "[\"未出生\"]",
+				"title": "出生",
+				"text": "=NAME=出生在一个农村家庭",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\", \"plusAff\":\"农村\", \"delAff\":\"未出生\", \"affValueChange\":[ { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":200, \"type\":\"=\" }, { \"key\":\"财富\", \"type\":\"=\", \"value\":1 } ] } ]",
+				"sexCond": -1,
+				"ageCondMin": 0,
+				"ageCondMax": 0,
+				"passTime": 1,
+				"id": 8
+			},
+			{
+				"affCond": "[\"未出生\"]",
+				"title": "互撸娃",
+				"text": " “爷爷，爷爷，爷爷～，你朦胧的睁开眼看见眼前有个老头，身旁6个葫芦都在叫着爷爷，而你的天赋是__\r\n",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"力大无穷\", \"plusAff\":\"强壮\", \"delAff\":\"未出生\", \"plusBG\":\"葫芦娃\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"=\", \"value\":5 }, { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":100, \"type\":\"=\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"机智冷静\", \"plusAff\":\"高情商\", \"delAff\":\"未出生\", \"plusBG\":\"葫芦娃\", \"affValueChange\":[ { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"财富\", \"type\":\"=\", \"value\":5 }, { \"key\":\"健康\", \"value\":100, \"type\":\"=\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"有千里眼顺风耳\", \"plusAff\":\"洞察\", \"delAff\":\"未出生\", \"plusBG\":\"葫芦娃\", \"affValueChange\":[ { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":100, \"type\":\"=\" }, { \"key\":\"财富\", \"type\":\"=\", \"value\":5 } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"会隐身\", \"plusAff\":\"隐身\", \"delAff\":\"未出生\", \"plusBG\":\"葫芦娃\", \"affValueChange\":[ { \"key\":\"健康\", \"value\":100, \"type\":\"=\" }, { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"财富\", \"type\":\"=\", \"value\":5 } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"会喷火\", \"plusAff\":\"会喷火\", \"delAff\":\"未出生\", \"plusBG\":\"葫芦娃\", \"affValueChange\":[ { \"key\":\"健康\", \"value\":100, \"type\":\"=\" }, { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"财富\", \"type\":\"=\", \"value\":5 } ] } ]",
+				"sexCond": -1,
+				"ageCondMin": 0,
+				"ageCondMax": 0,
+				"passTime": 4,
+				"id": 3
+			},
+			{
+				"affCond": "[\"未出生\"]",
+				"title": "富二代",
+				"text": "=NAME=出生在一个土豪家庭，成为了一名富二代",
+				"aff": "[ { \"title\":\"富二代\", \"text\":\"=NAME=出生在一个土豪家庭\", \"btn\":\"下一事件\", \"plusAff\":\"富二代\", \"delAff\":\"未出生\", \"target\":\"1395\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"=\", \"value\":5 }, { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":100, \"type\":\"=\" } ] } ]",
+				"sexCond": -1,
+				"ageCondMin": 0,
+				"ageCondMax": 0,
+				"passTime": 1,
+				"id": 1
+			},
+			{
+				"affCond": "[\"未出生\"]",
+				"title": "出生",
+				"text": "\"开眼了开眼了\"，=NAME=一出生就在熟睡，刚睁眼耳边响起父母高兴的叫声",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\", \"plusAff\":\"天眼\", \"delAff\":\"未出生\", \"affValueChange\":[ { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":100, \"type\":\"=\" } ] } ]",
+				"sexCond": 1,
+				"ageCondMin": 0,
+				"ageCondMax": 0,
+				"passTime": 1,
+				"id": 4
+			},
+			{
+				"affCond": "[\"勇敢\"]",
+				"title": "勇敢",
+				"text": "=NAME=很胆大，经常___\r\n",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=NAME=很胆大，经常去更衣室偷窥别人。有一次他被人发现了，=NAME=竟然和那个人一窥生情，热恋了。\", \"btn\":\"进异性更衣室偷窥\", \"affValueChange\":[ { \"key\":\"恋爱中\", \"type\":\"+\", \"value\":1 } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"路见不平，出手相助。\", \"plusAff\":\"高情商\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"去溪河游泳。\", \"plusAff\":\"死亡\" }, { \"title\":\"=INHERIT=\", \"text\":\"不作死就不会死。\", \"btn\":\"作死\", \"plusAff\":\"死亡\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"做一些违反校规的事情\", \"plusBG\":\"差生\" }, { \"title\":\"教育就是和你对着干\", \"text\":\"=NAME=很勇敢，经常在课堂上提出自己的想法。但是这样只会使=NAME=变成老师的眼中钉，爱顶嘴的差生。\", \"btn\":\"在课堂上勇于提出自己的想法\", \"affValueChange\":[ { \"key\":\"学习成绩\", \"type\":\"-\", \"value\":1 } ] } ]",
+				"sexCond": -1,
+				"ageCondMin": 4,
+				"ageCondMax": 19,
+				"passTime": 1,
+				"id": 27,
+				"affValueCompare": [
+					{
+						"key": "学生=HIDEVAL=",
+						"value": 0,
+						"type": "=="
+					}
+				]
+			},
 
+			{
+				"affCond": "[\"未出生\"]",
+				"title": "异世界",
+				"text": "\"=NAME= 从一个冷冻仓醒来，发现过了100年，一场病毒导致世界上的男人都灭绝了，仅剩无数的女人。人类的繁衍迫在眉睫,",
+				"aff": "[ { \"title\":\"异世界\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\", \"delAff\":\"未出生\", \"plusBG\":\"种马\",\"plusAff\":\"穿越\",  \"affValueChange\":[{ \"key\":\"健康\", \"value\":100, \"type\":\"=\" } ] } ]",
+				"sexCond": -1,
+				"ageCondMin": 0,
+				"ageCondMax": 0,
+				"passTime": 8,
+				"id": 5
+			},
+			{
+				"affCond": "[\"未出生\"]",
+				"title": "出生",
+				"text": "叮～，最强作死系统已绑定。=NAME=耳边响起一道系统的声音。看着陌生的天花板，我这是穿越了？不就之前作死在手里放了个礼花弹吗",
+				"aff": "[ { \"title\":\"穿越\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\", \"plusAff\":\"最强作死系统\",\"plusAff\":\"穿越\", \"delAff\":\"未出生\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"=\", \"value\":1 }, { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":80, \"type\":\"=\" } ] } ]",
+				"sexCond": -1,
+				"ageCondMin": 0,
+				"ageCondMax": 0,
+				"passTime": 1,
+				"id": 7
+			},
+			{
+				"affCond": "[\"未出生\"]",
+				"title": "孤儿",
+				"text": "=NAME=是一个孤儿，从小在孤儿院长大，他在孤儿院认识了一个哥哥",
+				"aff": "[ { \"title\":\"孤儿\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\", \"plusAff\":\"孤儿\", \"delAff\":\"未出生\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"=\", \"value\":1 }, { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":90, \"type\":\"=\" } ] } ]",
+				"sexCond": -1,
+				"ageCondMin": 0,
+				"ageCondMax": 0,
+				"passTime": 1,
+				"id": 10
+			},
+			{
+				"title": "幼儿日常",
+				"text": "=NAME=___",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢看电视\", \"plusAff\":\"近视眼\", \"target\":\"10\", \"affValueChange\":[ { \"key\":\"健康\", \"value\":5, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"对玩具非常着迷\", \"target\":\"12\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢玩耍\", \"target\":\"11\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢玩平板电脑\", \"target\":\"1628\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"经常安静地呆着\", \"plusAff\":\"内向\", \"target\":\"155\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢撒币\", \"plusAff\":\"败家\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"-\", \"value\":2 } ], \"conds\":{ \"affCond\":[ \"土豪\" ] } } ]",
+				"sexCond": -1,
+				"ageCondMin": 1,
+				"ageCondMax": 4,
+				"passTime": 0,
+				"id": 9
+			},
+			{
+				"affCond": "[\"未出生\"]",
+				"title": "出生",
+				"text": "=NAME=出生了。",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\", \"delAff\":\"未出生\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"=\", \"value\":5 }, { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":100, \"type\":\"=\" } ] } ]",
+				"sexCond": -1,
+				"ageCondMin": 0,
+				"ageCondMax": 0,
+				"passTime": 1,
+				"id": 6
+			},
+			{
+				"title": "抓周",
+				"text": "=NAME=在周岁时被家长围观进行抓周，=NAME=选择了＿\r\n",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周抓了笔和沙子，大家都认为他将来会成为建筑工程师\", \"btn\":\"笔和沙子\", \"plusAff\":\"沙笔\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周抓到了游戏机，大家都认为他将来会成为一名电竞选手\", \"btn\":\"游戏机\", \"plusAff\":\"电竞选手\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周爬向了轮胎，大家都以为他将来会成为一名出色的赛车手\", \"btn\":\"轮胎\", \"plusAff\":\"备胎\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周抓到了键盘，大家都以为他将来肯定能成为一名出色IT精英，然而事实却是成了祖安里一名父母尤在的键盘侠\", \"btn\":\"键盘\", \"plusAff\":\"键盘侠\"}, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周抓了瓶子，必定一生平平安安\", \"btn\":\"瓶子\", \"plusAff\":\"平安\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"开演唱会\", \"plusAff\":\"音乐\", \"affValueChange\":[ { \"key\":\"音乐能力\", \"value\":1, \"type\":\"+\" } ], \"delAff\":\"玩耍迷\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"玩昆特牌\", \"plusAff\":\"逻辑\", \"delAff\":\"玩耍迷\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"骑共享单车\", \"delAff\":\"玩耍迷\", \"plusBG\":\"共享单车\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME==AGE=岁的时候非常好动，经常喷火玩。俗话说得好，玩火者必自焚。=NAME=有一次在家里喷火煲蜡时发生意外，高温火焰引燃了窗帘，造成火灾，=NAME=在吸入大量浓烟后中毒死亡。\", \"btn\":\"玩火\", \"plusAff\":\"死亡\", \"delAff\":\"玩耍迷\", \"conds\":{ \"affCond\":[ \"会喷火\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME==AGE=岁的时候非常好动，他用自己的魔法制造雪人玩。\", \"btn\":\"造雪人\", \"delAff\":\"玩耍迷\", \"conds\":{ \"affCond\":[ \"戴手套\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME==AGE=岁的时候非常好动，他用自己的能力喷火玩，到处放火。\", \"btn\":\"玩火\", \"delAff\":\"玩耍迷\", \"conds\":{ \"affCond\":[ \"会喷火\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME==AGE=岁的时候，凭借着他的个人能力，他成为了一名小偷。\", \"btn\":\"做小偷\", \"plusAff\":\"小偷\", \"delAff\":\"玩耍迷\", \"conds\":{ \"affCond\":[ \"隐身\" ] } } ]",
+				"sexCond": -1,
+				"ageCondMin": 200,
+				"ageCondMax": 200,
+				"passTime": 1,
+				"id": 11
+			},
+			{
+				"title": "学走路",
+				"text": "=NAME=___的时候，突然学会了走路。\r\n",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"闯祸了被人追着打\", \"plusAff\":\"强壮\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"吃脚趾\", \"plusAff\":\"脑洞\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"和狗抢东西吃\", \"plusAff\":\"好胜\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"模仿MJ\", \"plusAff\":\"音乐\", \"affValueChange\":[ { \"key\":\"音乐能力\", \"value\":1, \"type\":\"+\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=看了看教走路的教程，就学会了走路。\", \"btn\":\"看手把手教程\" }, { \"title\":\"天才\", \"text\":\"=NAME=一生下来就会走路，根本不用学\", \"btn\":\"走路还用学？\", \"plusAff\":\"身体协调\" } ]",
+				"sexCond": -1,
+				"ageCondMin": 1,
+				"ageCondMax": 4,
+				"passTime": 1,
+				"id": 14
+			},
+			{
+				"title": "美德",
+				"text": "=NAME=坐公交车，发现有一个老人抱着小孩没有座位坐。=NAME=___",
+				"aff": "[ { \"title\":\"抢小孩\", \"text\":\"=NAME=想帮老人忙，上前去把老人怀里的小孩揽过来……老人一愣，立马大叫抢小孩啦快报警！=NAME=跳进黄河也洗不清，被判2年监禁。\", \"btn\":\"帮老人抱住小孩\", \"plusCBG\":\"监狱\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":2, \"type\":\"=\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=尊老爱幼，是中华人民的美德。\", \"btn\":\"让座\" }, { \"title\":\"缺德\", \"text\":\"=INHERIT=\", \"btn\":\"并不理睬\" } ]",
+				"sexCond": -1,
+				"ageCondMin": 8,
+				"ageCondMax": 40,
+				"passTime": 1,
+				"id": 159
+			},
+			{
+				"affCond": "[\"小偷\"]",
+				"title": "盗窃上瘾",
+				"text": "尝过上次的甜头后，=NAME=偷窃上瘾了，=NAME=决定下个目标是___ ",
+				"aff": "[ { \"title\":\"被抓现行\", \"text\":\"在地铁中，偷窃上瘾的=NAME=把魔抓伸向了一位女士口袋，从口袋里偷出了一个手机，说时迟那时快，手机突然响了……最后=NAME=被管理员抓了，扭送去了派出所，等待=NAME=的，是漫长的牢狱之苦\", \"btn\":\"拥挤的地铁中偷手机\", \"delAff\":\"小偷\", \"plusCBG\":\"监狱\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":2, \"type\":\"=\" } ] }, { \"title\":\"被抓现行\", \"text\":\"=NAME=把商场内的告示“商场内设有摄像头，请勿偷窃商品”中的设看成了没。于是肆无忌惮地偷东西，立马就被抓获了……\", \"btn\":\"去商场偷东西\", \"delAff\":\"小偷\", \"plusCBG\":\"监狱\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":2, \"type\":\"=\" } ] }, { \"title\":\"付出代价\", \"text\":\"=NAME=喜欢玩偷菜，于是也想在真实世界里过把瘾。然而真实的世界是冷酷的，当=NAME=在市场偷菜被菜贩抓到后，=NAME=被菜贩拖进了小黑屋肢解了，剁成了肉块，稍作处理后，当驴肉出售。\", \"btn\":\"去菜市场偷菜\", \"plusAff\":\"死亡\" }, { \"title\":\"挤牛奶\", \"text\":\"=NAME=去牛奶场偷牛，牛太重搬不动，于是=NAME=挤了点牛奶装好就灰溜溜地走了。\", \"btn\":\"去牛奶场偷牛\" }, { \"title\":\"笨贼\", \"text\":\"=NAME=选择在夜深人静的时候，溜到郊外偷电线。当=NAME=剪电线的时候被通电了，黑夜中似乎有一颗明星闪耀了1分钟，这是=NAME=生命绽放的最后光芒。\", \"btn\":\"偷电线\", \"plusAff\":\"死亡\" }, { \"title\":\"白手起家\", \"text\":\"=NAME=喜欢偷车，专门找一些乱停乱放的汽车下手，干了不久，就发家致富，金盘洗手了。\", \"btn\":\"偷车\", \"plusAff\":\"小偷：最后一波\", \"delAff\":\"小偷\" }, { \"title\":\"内衣流通\", \"text\":\"=NAME=经常去一些城中村，老住宅区，偷内衣，男女的内衣都偷。他把偷得的内衣放在家，自己玩过之后洗干净，又摆摊卖出去。\", \"btn\":\"内衣\" }, { \"title\":\"满足感\", \"text\":\"=NAME=偷窃上瘾，他进小学学校偷看学生的书包。=NAME=从窥探书包里的东西来获得独特的满足感，看完就放回去，啥都不拿。\", \"btn\":\"小学生\" } ]",
+				"sexCond": -1,
+				"ageCondMin": 8,
+				"ageCondMax": 65535,
+				"passTime": 1,
+				"id": 160
+			},
+			{
+				"background": "[\"失忆\"]",
+				"title": "恢复记忆",
+				"text": "=NAME=记起来了，他是一个内向的人。\r\n",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\", \"plusAff\":\"内向\", \"delAff\":\"高情商\", \"delBG\":\"失忆\" } ]",
+				"sexCond": -1,
+				"ageCondMin": 1,
+				"ageCondMax": 65535,
+				"passTime": 0,
+				"id": 161
+			},
+			{
+				"background": "[\"失忆\"]",
+				"title": "恢复记忆",
+				"text": "=NAME=记忆逐渐恢复，=NAME=发现学校的作业题他都会做了，=NAME=以前很可能是学霸。",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\", \"affValueChange\":[ { \"key\":\"学习成绩\", \"type\":\"=\", \"value\":3 } ] } ]",
+				"sexCond": -1,
+				"ageCondMin": 1,
+				"ageCondMax": 65535,
+				"passTime": 0,
+				"id": 162,
+				"affValueCompare": [
+					{
+						"key": "学生=HIDEVAL=",
+						"type": "==",
+						"value": 0
+					}
+				]
+			},
+			{
+				"background": "[\"黑暗厨师\"]",
+				"affCond": "[\"赢得厨师比赛\"]",
+				"title": "快递",
+				"text": "=NAME=的快递到了，快递小哥似乎搬这个东西搬得很吃力，快递员来拍门了。=NAME=___ ",
+				"aff": "[ { \"title\":\"获得神秘厨具“永灵刀”\", \"text\":\"快递到了，=NAME=开门去拿，原来是上次比赛赢回来的奖品。一个神秘厨具“永灵刀”。\", \"btn\":\"开门去拿\", \"plusAff\":\"获得永灵刀\", \"delAff\":\"赢得厨师比赛\", \"delBG\":\"反动\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=的快递到了，快递小哥在门外等了半个小时，=NAME=竟然不来拿快递，给了门一个中指走人了。\", \"btn\":\"感觉不对路，假装不在家\", \"delAff\":\"赢得厨师比赛\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=的快递到了，快递小哥在门外等了半个小时，=NAME=竟然不来拿快递，给了门一个中指走人了。\", \"btn\":\"偷偷从窗外溜出去\", \"delAff\":\"赢得厨师比赛\" } ]",
+				"sexCond": -1,
+				"ageCondMin": 20,
+				"ageCondMax": 65535,
+				"passTime": 0,
+				"id": 163
+			},
+			{
+				"title": "科学研究",
+				"text": "=NAME=选择毕业后，未来将留在在学校做科研，他研究的学科是___",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"生物学\", \"plusBG\":\"生物学\", \"conds\":{ \"affCond\":[ \"数学专业\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"生物学\", \"plusBG\":\"生物学\", \"conds\":{ \"affCond\":[ \"生物学专业\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"生物学\", \"plusBG\":\"生物学\", \"conds\":{ \"affCond\":[ \"化学专业\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"高能物理\", \"plusBG\":\"高能物理学\", \"conds\":{ \"affCond\":[ \"物理学专业\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"高能物理\", \"plusBG\":\"高能物理学\", \"conds\":{ \"affCond\":[ \"数学专业\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"天文\", \"plusBG\":\"天文学\", \"conds\":{ \"affCond\":[ \"天文学专业\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"天文\", \"plusBG\":\"天文学\", \"conds\":{ \"affCond\":[ \"数学专业\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"社会学\", \"plusBG\":\"社会学\", \"conds\":{ \"affCond\":[ \"哲学专业\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"心理学\", \"plusBG\":\"心理学\", \"conds\":{ \"affCond\":[ \"哲学专业\" ] } } ]",
+				"sexCond": -1,
+				"ageCondMin": 2000,
+				"ageCondMax": 2000,
+				"passTime": 1,
+				"id": 164
+			},
+			{
+				"background": "[\"监狱\"]",
+				"title": "超无聊",
+				"text": "在监狱里，四面墙，一张床，=NAME=超无聊，只好___来打发时间。",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"读小说《战争与和平》\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":1, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"读小说《卡洛琳娜》\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":1, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"读小说《穿越到明朝当个官》\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":1, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"发呆\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":1, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=在监狱的图书馆里找到一本《监狱室内设计》，他立马拿起来看。这本书竟然是本叙事的诗歌……=NAME=的心里跑过无数草泥马。\", \"btn\":\"阅读《监狱室内设计》\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":1, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"写点什么\", \"plusAff\":\"写作\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":1, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"读图书《Codex Seraphinianus》\", \"plusAff\":\"脑洞\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":1, \"type\":\"-\" } ] } ]",
+				"sexCond": -1,
+				"ageCondMin": 1,
+				"ageCondMax": 65535,
+				"passTime": 1,
+				"id": 166,
+				"affValueCompare": [
+					{
+						"key": "=HIDDEN=监狱时间",
+						"type": ">",
+						"value": 0
+					}
+				]
+			},
+			{
+				"background": "[\"厨师\",\"黑暗厨师\"]",
+				"affCond": "[\"口臭\"]",
+				"title": "特殊味道",
+				"text": "=NAME=煮的鱼香茄子有非常独特的南鱼，非常香。而=NAME=煮这道菜的时候不准让任何人旁观，说这个是祖传的秘籍，不能外露。\r\n",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\" } ]",
+				"sexCond": -1,
+				"ageCondMin": 1,
+				"ageCondMax": 65535,
+				"passTime": 1,
+				"id": 167
+			},
+			{
+				"background": "[\"外贸\"]",
+				"title": "沟通",
+				"text": "在和客户沟通中语言不通，=NAME=会___",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=NAME=在公司的表现不佳，和客户画来画去的，根本不能沟通。\", \"btn\":\"玩我画你猜\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=边查字典边和客户说外语，虽然这样子看起来很丑，但是很有效。即使一些很难对付的客户，生意都能谈下来。\", \"btn\":\"立马查字典\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=边上网找翻译边和客户说外语，虽然这样子看起来很丑，但是很有效。即使一些很难对付的客户，生意都能谈下来。\", \"btn\":\"上网找在线翻译\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=用生动的肢体语言来弥补语言障碍，=NAME=每天的工作就像在做运动。\", \"btn\":\"肢体语言\", \"plusAff\":\"强壮\", \"delAff\":\"多病\" } ]",
+				"sexCond": -1,
+				"ageCondMin": 20,
+				"ageCondMax": 55,
+				"passTime": 1,
+				"id": 165
+			},
+			{
+				"background": "[\"天文学\"]",
+				"affCond": "[\"“事件视界望远镜”项目\"]",
+				"title": "拦路打劫",
+				"text": "“事件视界望远镜”项目运送数据硬盘的卡车在半路被拦路打劫，=NAME=在车上，偷偷从车窗向外看，他看到外面匪徒一共3人，都有枪。=NAME=___",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"“事件视界望远镜”项目运送数据硬盘的卡车在半路被拦路打劫，=NAME=在车上，偷偷从车窗向外看，他看到外面匪徒一共3人，都有枪。=NAME=很果断，立即跳下车抱住一个匪徒。=NAME=找到机会，一记重拳把那个匪徒打倒在地，不省人事。其他两个匪徒想要开枪，被=NAME=缴械了，=NAME=擒住2个匪徒，把他们的头撞在一起……收拾了这3个匪徒，=NAME=跳上卡车走了。\", \"btn\":\"下车与匪徒搏斗\", \"affValueChange\":[ { \"key\":\"黑洞照片进度\", \"value\":3, \"type\":\"+\" } ], \"conds\":{ \"affCond\":[ \"强壮\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"“事件视界望远镜”项目运送数据硬盘的卡车在半路被拦路打劫，=NAME=在车上，偷偷从车窗向外看，他看到外面匪徒一共3人，都有枪。=NAME=很果断，立即跳下车抱住一个匪徒，两人撕打了起来。匪徒的体力明显比=NAME=好，=NAME=很快被摁在地上，一枪爆头。\", \"btn\":\"下车与匪徒搏斗\", \"plusAff\":\"死亡\", \"conds\":{ \"unAffCond\":[ \"强壮\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"“事件视界望远镜”项目运送数据硬盘的卡车在半路被拦路打劫，=NAME=在车上，偷偷从车窗向外看，他看到外面匪徒一共3人，都有枪。=NAME=很淡定地走下车，走到匪徒面前，面无惧色。匪徒看到=NAME=这架势，纷纷后退几步。=NAME=开始对3个匪徒进行思想教育，并向他们科普“事件视界望远镜”项目。=NAME=那富有感染力的语言，把3个匪徒说服了，他们放下枪，给卡车放行了。\", \"btn\":\"尝试说服匪徒\", \"affValueChange\":[ { \"key\":\"黑洞照片进度\", \"value\":3, \"type\":\"+\" } ], \"conds\":{ \"affCond\":[ \"高情商\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"“事件视界望远镜”项目运送数据硬盘的卡车在半路被拦路打劫，=NAME=在车上，偷偷从车窗向外看，他看到外面匪徒一共3人，都有枪。=NAME=兴奋地走下车，脱下了他的手套，无约束地释放他体内的魔法力量，攻击这3个可怜的匪徒，直至轰成渣后，=NAME=才依依不舍地穿回了手套，回到车上，开车走了。\", \"btn\":\"使用魔法攻击匪徒\", \"affValueChange\":[ { \"key\":\"黑洞照片进度\", \"value\":3, \"type\":\"+\" } ], \"conds\":{ \"affCond\":[ \"戴手套\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"“事件视界望远镜”项目运送数据硬盘的卡车在半路被拦路打劫，=NAME=在车上，偷偷从车窗向外看，他看到外面匪徒一共3人，都有枪。=NAME=跳下车，攻击匪徒！=NAME=向匪徒释放喷火，吐出来的火焰打歪了，烧到了卡车上。装满硬盘的卡车开始熊熊燃烧，匪徒逃跑了……\", \"btn\":\"喷火攻击匪徒！\", \"conds\":{ \"affCond\":[ \"会喷火\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"“事件视界望远镜”项目运送数据硬盘的卡车在半路被拦路打劫，=NAME=在车上，偷偷从车窗向外看，他看到外面匪徒一共3人，都有枪。=NAME=吓得立马跳车，隐身逃跑了。\", \"btn\":\"隐身逃跑\", \"conds\":{ \"affCond\":[ \"隐身\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"“事件视界望远镜”项目运送数据硬盘的卡车在半路被拦路打劫，=NAME=在车上，偷偷从车窗向外看，他看到外面匪徒一共3人，都有枪。=NAME=吓得立马跳车逃跑了。\", \"btn\":\"下车逃跑\" } ]",
+				"sexCond": -1,
+				"ageCondMin": 1,
+				"ageCondMax": 65535,
+				"passTime": 0,
+				"id": 1678
+			}
 		],
-        }
+		}
 }
