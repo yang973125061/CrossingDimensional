@@ -131,7 +131,7 @@
 				"ageCondMin": 3,
 				"ageCondMax": 3,
 				"passTime": 0,
-				"id": 10
+				"id": 53
 			},
 			{
 				"affCond": "[\"勇敢\"]",
@@ -142,7 +142,7 @@
 				"ageCondMin": 4,
 				"ageCondMax": 19,
 				"passTime": 1,
-				"id": 53,
+				"id": 54,
 				"affValueCompare": [
 					{
 						"key": "学生=HIDEVAL=",
