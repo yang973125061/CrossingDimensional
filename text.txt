@@ -106,7 +106,7 @@
 			{
 				"title": "抓周",
 				"text": "=NAME=在周岁时被家长围观进行抓周，=NAME=选择了＿\r\n",
-				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周抓了笔和沙子，大家都认为他将来会成为建筑工程师\", \"btn\":\"笔和沙子\", \"plusAff\":\"沙笔\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周抓到了游戏机，大家都认为他将来会成为一名电竞选手\", \"btn\":\"游戏机\", \"plusAff\":\"电竞选手\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周爬向了轮胎，大家都以为他将来会成为一名出色的赛车手\", \"btn\":\"轮胎\", \"plusAff\":\"备胎\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周抓到了键盘，大家都以为他将来肯定能成为一名出色IT精英，然而事实却是成了祖安里一名父母尤在的键盘侠\", \"btn\":\"键盘\", \"plusAff\":\"键盘侠\"}, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周抓了瓶子，必定一生平平安安\", \"btn\":\"瓶子\", \"plusAff\":\"平安\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"开演唱会\", \"plusAff\":\"音乐\", \"affValueChange\":[ { \"key\":\"音乐能力\", \"value\":1, \"type\":\"+\" } ], \"delAff\":\"玩耍迷\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"玩昆特牌\", \"plusAff\":\"逻辑\", \"delAff\":\"玩耍迷\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"骑共享单车\", \"delAff\":\"玩耍迷\", \"plusBG\":\"共享单车\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME==AGE=岁的时候非常好动，经常喷火玩。俗话说得好，玩火者必自焚。=NAME=有一次在家里喷火煲蜡时发生意外，高温火焰引燃了窗帘，造成火灾，=NAME=在吸入大量浓烟后中毒死亡。\", \"btn\":\"玩火\", \"plusAff\":\"死亡\", \"delAff\":\"玩耍迷\", \"conds\":{ \"affCond\":[ \"会喷火\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME==AGE=岁的时候非常好动，他用自己的魔法制造雪人玩。\", \"btn\":\"造雪人\", \"delAff\":\"玩耍迷\", \"conds\":{ \"affCond\":[ \"戴手套\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME==AGE=岁的时候非常好动，他用自己的能力喷火玩，到处放火。\", \"btn\":\"玩火\", \"delAff\":\"玩耍迷\", \"conds\":{ \"affCond\":[ \"会喷火\" ] } }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME==AGE=岁的时候，凭借着他的个人能力，他成为了一名小偷。\", \"btn\":\"做小偷\", \"plusAff\":\"小偷\", \"delAff\":\"玩耍迷\", \"conds\":{ \"affCond\":[ \"隐身\" ] } } ]",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周抓了笔和沙子，大家都认为他将来会成为建筑工程师\", \"btn\":\"笔和沙子\", \"plusAff\":\"沙笔\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周抓到了游戏机，大家都认为他将来会成为一名电竞选手\", \"btn\":\"游戏机\", \"plusAff\":\"电竞选手\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周爬向了轮胎，大家都以为他将来会成为一名出色的赛车手\", \"btn\":\"轮胎\", \"plusAff\":\"备胎\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周抓到了键盘，大家都以为他将来肯定能成为一名出色IT精英，然而事实却是成了祖安里一名父母尤在的键盘侠\", \"btn\":\"键盘\", \"plusAff\":\"键盘侠\"}, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周抓了瓶子，必定一生平平安安\", \"btn\":\"瓶子\", \"plusAff\":\"平安\" } ]",
 				"sexCond": -1,
 				"ageCondMin": 1,
 				"ageCondMax": 1,
@@ -124,14 +124,24 @@
 				"id": 52
 			},
 			{
+				"title": "学说话",
+				"text": "=NAME=的父亲教=NAME=叫“爸爸”,=NAME=___\r\n",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"父亲教=NAME=说“爸爸”，=NAME=只会傻笑\", \"btn\":\"笑\" }, { \"title\":\"=INHERIT=\", \"text\":\"父亲对着=NAME=说“爸爸”，=NAME=：“唉，嘿嘿嘿”的笑出声。父亲：去我老婆的！\", \"btn\":\"诶\", \"plusAff\":\"大孝子\" }]",
+				"sexCond": -1,
+				"ageCondMin": 3,
+				"ageCondMax": 3,
+				"passTime": 1,
+				"id": 53
+			},
+			{
 				"title": "幼儿日常",
 				"text": "=NAME=___",
 				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢看电视\", \"plusAff\":\"近视眼\", \"target\":\"10\", \"affValueChange\":[ { \"key\":\"健康\", \"value\":5, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"对玩具非常着迷\", \"target\":\"12\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢玩耍\", \"target\":\"11\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢玩平板电脑\", \"target\":\"1628\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"经常安静地呆着\", \"plusAff\":\"内向\", \"target\":\"155\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢撒币\", \"plusAff\":\"败家\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"-\", \"value\":2 } ], \"conds\":{ \"affCond\":[ \"土豪\" ] } } ]",
 				"sexCond": -1,
-				"ageCondMin": 3,
-				"ageCondMax": 3,
+				"ageCondMin": 4,
+				"ageCondMax": 4,
 				"passTime": 0,
-				"id": 53
+				"id": 60
 			},
 			{
 				"affCond": "[\"勇敢\"]",
