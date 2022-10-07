@@ -41,7 +41,7 @@
 				"affCond": "[\"未出生\"]",
 				"title": "富二代",
 				"text": "=NAME=出生在一个土豪家庭，成为了一名富二代",
-				"aff": "[ { \"title\":\"富二代\", \"text\":\"=NAME=出生在一个土豪家庭\", \"btn\":\"下一事件\", \"plusAff\":\"富二代\", \"delAff\":\"未出生\", \"target\":\"1395\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"=\", \"value\":5 }, { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":100, \"type\":\"=\" } ] } ]",
+				"aff": "[ { \"title\":\"富二代\", \"text\":\"=NAME=出生在一个土豪家庭\", \"btn\":\"下一事件\", \"plusAff\":\"富二代\", \"delAff\":\"未出生\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"=\", \"value\":5 }, { \"key\":\"正常出生=HIDDEN=\", \"type\":\"=\", \"value\":0 }, { \"key\":\"健康\", \"value\":100, \"type\":\"=\" } ] } ]",
 				"sexCond": -1,
 				"ageCondMin": 0,
 				"ageCondMax": 0,
