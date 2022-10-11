@@ -134,6 +134,47 @@
 				"id": 53
 			},
 			{
+				"title": "梦想",
+				"text": "=NAME=对世界充满了好奇，他希望长大了___\r\n",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"成为发明家\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"成为科学家\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"成为光\",\"plusAff\":\"光\"},{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"成为英雄\",\"plusAff\":\"英雄\" }]",
+				"sexCond": -1,
+				"ageCondMin": 5,
+				"ageCondMax": 5,
+				"passTime": 1,
+				"id": 1001
+			},
+			{
+				"title": "梦想2",
+				"text": "=NAME=对世界充满了好奇，他希望长大了___\r\n",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"成为发明家\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"成为科学家\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"成为光\",\"plusAff\":\"光\"},{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"成为英雄\",\"plusAff\":\"英雄\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"会飞\",\"plusAff\":\"会飞\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"会徒手发波\",\"plusAff\":\"会徒手发波\" }]",
+				"sexCond": -1,
+				"ageCondMin": 15,
+				"ageCondMax": 15,
+				"passTime": 1,
+				"id": 1002
+			},
+			{
+				"title": "梦想3",
+				"text": "=NAME=对世界充满了好奇，他希望长大了___\r\n",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"成为发明家\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"成为科学家\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"成为光\",\"plusAff\":\"光\"},{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"成为英雄\",\"plusAff\":\"英雄\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"会飞\",\"plusAff\":\"会飞\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"会徒手发波\",\"plusAff\":\"会徒手发波\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"世界和平\",\"plusAff\":\"大善人\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"进化人类文明\",\"plusAff\":\"光荣的进化\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"开发终极人工智能\",\"plusAff\":\"终极人工智能\" }]",
+				"sexCond": -1,
+				"ageCondMin": 25,
+				"ageCondMax": 25,
+				"passTime": 1,
+				"id": 1003
+			},
+			{
+				"title": "亲戚串门",
+				"text": "=NAME=的亲戚来串门，=NAME=___\r\n",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=NAME=的亲戚来串门，=NAME=害怕的躲了起来，=NAME=觉得这帮亲戚看着自己的笑容很可怕。\", \"btn\":\"躲起来\",\"plusAff\":\"社交恐惧症\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=的亲戚来串门，父母让=NAME=打招呼，叫二大爷，=NAME=说“叫二大爷！”\", \"btn\":\"让叫啥就让叫啥\",\"conds\":{ \"affCond\":[ \"最强作死系统\" ] } },{ \"title\":\"=INHERIT=\", \"text\":\"=NAME=的亲戚来串门，一个很凶很凶的阿姨把=NAME=抱了起来，=NAME=害怕的大哭，阿姨放在怀里哄了好久。\", \"btn\":\"吓哭\",\"plusAff\":\"洗面奶\" } ,{ \"title\":\"=INHERIT=\", \"text\":\"=NAME=的亲戚来串门，=NAME=害怕的躲了起来，=NAME=觉得这帮亲戚看着自己的笑容很可怕。\", \"btn\":\"躲起来\",\"plusAff\":\"社交恐惧症\" },{ \"title\":\"=INHERIT=\", \"text\":\"=NAME=的亲戚来串门，=NAME=无视了他们，亲戚看着=NAME=说叫一声200,=NAME=顿时喜笑颜开\", \"btn\":\"无视\",\"plusAff\":\"财迷\" }]",
+				"sexCond": -1,
+				"ageCondMin": 6,
+				"ageCondMax": 6,
+				"passTime": 1,
+				"id": 54
+			},
+			
+			{
 				"title": "幼儿日常",
 				"text": "=NAME=___",
 				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢看电视\", \"plusAff\":\"近视眼\", \"target\":\"10\", \"affValueChange\":[ { \"key\":\"健康\", \"value\":5, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"对玩具非常着迷\", \"target\":\"12\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢玩耍\", \"target\":\"11\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢玩平板电脑\", \"target\":\"1628\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"经常安静地呆着\", \"plusAff\":\"内向\", \"target\":\"155\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢撒币\", \"plusAff\":\"败家\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"-\", \"value\":2 } ], \"conds\":{ \"affCond\":[ \"土豪\" ] } } ]",
@@ -142,6 +183,26 @@
 				"ageCondMax": 4,
 				"passTime": 0,
 				"id": 60
+			},
+			{
+				"title": "看电视",
+				"text": "=NAME=小时候看电视喜欢看___\r\n",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"凹凸曼\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"吸氧羊\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"互撸娃\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"召唤神龙我能复活\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"次元乱斗职业联赛\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"龙王鳖婿\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"偶像剧\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"瑞克和北方公园\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"动物世界\" }]",
+				"sexCond": -1,
+				"ageCondMin": 7,
+				"ageCondMax": 7,
+				"passTime": 1,
+				"id": 55
+			},
+			{
+				"title": "惨遭封杀",
+				"text": "=NAME=小时候最喜欢看的电视节目惨遭封杀，理由是不利于未成年健康发展\r\n",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\" }]",
+				"sexCond": -1,
+				"ageCondMin": 8,
+				"ageCondMax": 8,
+				"passTime": 1,
+				"id": 56
 			},
 			{
 				"affCond": "[\"勇敢\"]",
@@ -286,6 +347,6 @@
 				"passTime": 0,
 				"id": 1678
 			}
-		],
+		]
 		}
 }
