@@ -177,7 +177,7 @@
 			{
 				"title": "幼儿日常",
 				"text": "=NAME=___",
-				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢看电视\", \"plusAff\":\"近视眼\", \"target\":\"10\", \"affValueChange\":[ { \"key\":\"健康\", \"value\":5, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"对玩具非常着迷\", \"target\":\"12\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢玩耍\", \"target\":\"11\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢玩平板电脑\", \"target\":\"1628\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"经常安静地呆着\", \"plusAff\":\"内向\", \"target\":\"155\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢撒币\", \"plusAff\":\"败家\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"-\", \"value\":2 } ], \"conds\":{ \"affCond\":[ \"土豪\" ] } } ]",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢看电视\", \"plusAff\":\"近视眼\", \"affValueChange\":[ { \"key\":\"健康\", \"value\":5, \"type\":\"-\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"对玩具非常着迷\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢玩耍\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢玩平板电脑\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"经常安静地呆着\", \"plusAff\":\"内向\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"喜欢撒币\", \"plusAff\":\"败家\", \"affValueChange\":[ { \"key\":\"财富\", \"type\":\"-\", \"value\":2 } ], \"conds\":{ \"affCond\":[ \"土豪\" ] } } ]",
 				"sexCond": -1,
 				"ageCondMin": 4,
 				"ageCondMax": 4,
