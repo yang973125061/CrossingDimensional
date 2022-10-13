@@ -213,7 +213,7 @@
 				"ageCondMin": 4,
 				"ageCondMax": 19,
 				"passTime": 1,
-				"id": 54,
+				"id": 57,
 				"affValueCompare": [
 					{
 						"key": "学生=HIDEVAL=",
