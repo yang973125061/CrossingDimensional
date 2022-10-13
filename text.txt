@@ -181,7 +181,7 @@
 				"sexCond": -1,
 				"ageCondMin": 4,
 				"ageCondMax": 4,
-				"passTime": 0,
+				"passTime": 1,
 				"id": 60
 			},
 			{
