@@ -220,8 +220,8 @@
 				"text": "=NAME=很胆大，经常___\r\n",
 				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=NAME=很胆大，经常去更衣室偷窥别人。有一次他被人发现了，=NAME=竟然和那个人一窥生情，热恋了。\", \"btn\":\"进异性更衣室偷窥\", \"affValueChange\":[ { \"key\":\"恋爱中\", \"type\":\"+\", \"value\":1 } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"路见不平，出手相助。\", \"plusAff\":\"高情商\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"去溪河游泳。\", \"plusAff\":\"死亡\" }, { \"title\":\"=INHERIT=\", \"text\":\"不作死就不会死。\", \"btn\":\"作死\", \"plusAff\":\"死亡\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"做一些违反校规的事情\", \"plusBG\":\"差生\" }, { \"title\":\"教育就是和你对着干\", \"text\":\"=NAME=很勇敢，经常在课堂上提出自己的想法。但是这样只会使=NAME=变成老师的眼中钉，爱顶嘴的差生。\", \"btn\":\"在课堂上勇于提出自己的想法\", \"affValueChange\":[ { \"key\":\"学习成绩\", \"type\":\"-\", \"value\":1 } ] } ]",
 				"sexCond": -1,
-				"ageCondMin": 4,
-				"ageCondMax": 19,
+				"ageCondMin": 20,
+				"ageCondMax": 20,
 				"passTime": 1,
 				"id": 57,
 				"affValueCompare": [
@@ -237,8 +237,8 @@
 				"text": "=NAME=坐公交车，发现有一个老人抱着小孩没有座位坐。=NAME=___",
 				"aff": "[ { \"title\":\"抢小孩\", \"text\":\"=NAME=想帮老人忙，上前去把老人怀里的小孩揽过来……老人一愣，立马大叫抢小孩啦快报警！=NAME=跳进黄河也洗不清，被判2年监禁。\", \"btn\":\"帮老人抱住小孩\", \"plusCBG\":\"监狱\", \"affValueChange\":[ { \"key\":\"=HIDDEN=监狱时间\", \"value\":2, \"type\":\"=\" } ] }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=尊老爱幼，是中华人民的美德。\", \"btn\":\"让座\" }, { \"title\":\"缺德\", \"text\":\"=INHERIT=\", \"btn\":\"并不理睬\" } ]",
 				"sexCond": -1,
-				"ageCondMin": 8,
-				"ageCondMax": 40,
+				"ageCondMin": 21,
+				"ageCondMax": 21,
 				"passTime": 1,
 				"id": 159
 			},
