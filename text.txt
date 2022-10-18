@@ -145,11 +145,11 @@
 			},
 			{
 				"title": "梦想2",
-				"text": "=NAME=对世界充满了好奇，他希望长大了___\r\n",
+				"text": "随着成长，=NAME=对世界有了新的认知，他决定长大了___\r\n",
 				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"成为发明家\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"成为科学家\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"成为光\",\"plusAff\":\"光\"},{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"成为英雄\",\"plusAff\":\"英雄\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"会飞\",\"plusAff\":\"会飞\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"会徒手发波\",\"plusAff\":\"会徒手发波\" }]",
 				"sexCond": -1,
-				"ageCondMin": 15,
-				"ageCondMax": 15,
+				"ageCondMin": 10,
+				"ageCondMax": 10,
 				"passTime": 1,
 				"id": 1002
 			},
@@ -213,6 +213,16 @@
 				"ageCondMax": 9,
 				"passTime": 1,
 				"id": 58
+			},
+			{
+				"title": "上学",
+				"text": "=NAME=到了上次元小学的年纪,=NAME=___去\r\n",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"骑羊\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=挣扎着说我是爱因斯坦转世，不用去幼儿园！\", \"btn\":\"我是天才，不上学！\" }]",
+				"sexCond": -1,
+				"ageCondMin": 8,
+				"ageCondMax": 8,
+				"passTime": 1,
+				"id": 56
 			},
 			{
 				"affCond": "[\"勇敢\"]",
