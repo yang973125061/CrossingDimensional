@@ -190,7 +190,7 @@
 				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"凹凸曼\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"吸氧羊\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"互撸娃\" }, { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"召唤神龙我能复活\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"次元乱斗职业联赛\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"龙王鳖婿\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"偶像剧\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"瑞克和北方公园\" },{ \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"动物世界\" }]",
 				"sexCond": -1,
 				"ageCondMin": 11,
-				"ageCondMax": 7,
+				"ageCondMax": 11,
 				"passTime": 1,
 				"id": 55
 			},
