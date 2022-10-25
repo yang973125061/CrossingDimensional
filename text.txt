@@ -257,7 +257,7 @@
 			{
 				"title": "妥协上学",
 				"text": "最终=NAME=屈服于他们的（淫威）威逼利诱下，准备老老实实上学\r\n",
-				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\",\"target\":\"60\" }]",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\",\"target\":\"61\" }]",
 				"sexCond": -1,
 				"ageCondMin": 65535,
 				"ageCondMax": 65535,
