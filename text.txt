@@ -272,7 +272,7 @@
 				"ageCondMin": 8,
 				"ageCondMax": 8,
 				"passTime": 1,
-				"id": 60
+				"id": 61
 			},
 			{
 				"affCond": "[\"勇敢\"]",
