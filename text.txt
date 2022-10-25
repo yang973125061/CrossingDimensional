@@ -231,7 +231,7 @@
 				"sexCond": -1,
 				"ageCondMin": 65535,
 				"ageCondMax": 65535,
-				"passTime": 1,
+				"passTime": 0,
 				"id": 2001
 			},
 			{
@@ -241,7 +241,7 @@
 				"sexCond": -1,
 				"ageCondMin": 65535,
 				"ageCondMax": 65535,
-				"passTime": 1,
+				"passTime": 0,
 				"id": 2002
 			},
 			{
@@ -251,7 +251,7 @@
 				"sexCond": -1,
 				"ageCondMin": 65535,
 				"ageCondMax": 65535,
-				"passTime": 1,
+				"passTime": 0,
 				"id": 2003
 			},
 			{
@@ -261,7 +261,7 @@
 				"sexCond": -1,
 				"ageCondMin": 65535,
 				"ageCondMax": 65535,
-				"passTime": 1,
+				"passTime": 0,
 				"id": 2004
 			},
 			{
