@@ -105,7 +105,7 @@
 			},
 			{
 				"title": "版本号",
-				"text": "1111111",
+				"text": "111112222",
 				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\" }]",
 				"sexCond": -1,
 				"ageCondMin": 1,
