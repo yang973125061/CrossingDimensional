@@ -104,12 +104,22 @@
 				"id": 9
 			},
 			{
+				"title": "版本号",
+				"text": "1111111",
+				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=INHERIT=\", \"btn\":\"下一事件\" }]",
+				"sexCond": -1,
+				"ageCondMin": 1,
+				"ageCondMax": 1,
+				"passTime": 1,
+				"id": 50
+			},
+			{
 				"title": "抓周",
 				"text": "=NAME=在周岁时被家长围观进行抓周，=NAME=选择了＿\r\n",
 				"aff": "[ { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周抓了笔和沙子，大家都认为他将来会成为建筑工程师\", \"btn\":\"笔和沙子\", \"plusAff\":\"沙笔\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周抓到了游戏机，大家都认为他将来会成为一名电竞选手\", \"btn\":\"游戏机\", \"plusAff\":\"电竞选手\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周爬向了轮胎，大家都以为他将来会成为一名出色的赛车手\", \"btn\":\"轮胎\", \"plusAff\":\"备胎\" }, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周抓到了键盘，大家都以为他将来肯定能成为一名出色IT精英，然而事实却是成了祖安里一名父母尤在的键盘侠\", \"btn\":\"键盘\", \"plusAff\":\"键盘侠\"}, { \"title\":\"=INHERIT=\", \"text\":\"=NAME=抓周抓了瓶子，必定一生平平安安\", \"btn\":\"瓶子\", \"plusAff\":\"平安\" } ]",
 				"sexCond": -1,
-				"ageCondMin": 1,
-				"ageCondMax": 1,
+				"ageCondMin": 2,
+				"ageCondMax": 2,
 				"passTime": 1,
 				"id": 51
 			},
